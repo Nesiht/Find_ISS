@@ -83,6 +83,8 @@ let googleMapStylesLight = [];
 let lightDarkMode;
 let controll = true;
 
+
+
 // Store the switch in a variable.
 const toggleSwitch = document.querySelector('.switch input[type="checkbox"]');
 
@@ -162,6 +164,7 @@ toggleSwitch.addEventListener('change', switchMap, false);
 
 setInterval(getCoordinates, 10000); // Run the fetch api request and plot the lat and lon automaticly every x millisecond.
 
+require('dotenv').config();
 
 // Function to fetch and show the position of the ISS on map.
 // function getCoordinates(){

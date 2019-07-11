@@ -1,0 +1,22 @@
+{
+  "name": "find_iss",
+  "version": "1.0.0",
+  "description": "Automaticly get the position of the International Space Station (ISS)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nesiht/Find_ISS.git"
+  },
+  "author": "Mathias Thorström",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nesiht/Find_ISS/issues"
+  },
+  "homepage": "https://github.com/Nesiht/Find_ISS#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  }
+}
