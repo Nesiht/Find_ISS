@@ -38,6 +38,17 @@ html, body {
       height: 6%;
 }
 
+/* ISS info div */
+.info {
+    display: none;
+    position: absolute;
+    background-color: var(--primary-color);
+    padding: 15px;
+    color: var(--font-color);
+    top: 120px;
+    left: 15px;
+}
+
 .menu {
       grid-column: 1 / 4;
       padding: 10px;

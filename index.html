@@ -14,7 +14,7 @@
   <div class="container">
     <div class="menu">
       <button id="getCoordinates" type="button" class="btn btn-outline-primary">Find ISS</button>
-      <button id="getCoordinates" type="button" class="btn btn-outline-primary">Show info</button>
+      <button type="button" class="btn btn-outline-primary" onclick="showISSInfo()">Show info</button>
     </div>
 
     <div class="toggle">
@@ -29,6 +29,18 @@
   </div>
 
   <div id="map"></div>
+  <div class="info" id="show_info">
+      <h1>International Space Station</h1>
+      <p>The ISS programme is a joint project between five participating space agencies:<br>
+           NASA (United States), Roscosmos (Russia), JAXA (Japan), ESA (Europe), and CSA (Canada).</p>
+      <ul>
+          <li>Launched 20 November 1998.</li>
+          <li>Circles the Earth in roughly 92 minutes and completes 15.5 orbits per day.</li>
+          <li>Call sign: Alpha station.</li>
+          <li>Crew: 6.</li>
+          <li>Orbital Speed: 7.66km/s.</li>
+      </ul>
+  </div>
 
 
   <script src="script.js"></script>
