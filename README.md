@@ -11,4 +11,5 @@ Application to show the position of ISS space station every 10 seconds or on dem
 * Dark / Light Themed
 
 Any questions can be directed to me at thisen@gmail.com.
+
 Repository created 2019-06-12 and finished 2019-07-12.
