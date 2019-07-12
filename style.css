@@ -162,6 +162,11 @@ input:checked + .slider:before {
     border-color: var(--font-color);
 }
 
+.list-group-item-primary{
+  background-color: var(--primary-color);
+  color: var(--font-color);
+}
+
 
 @media only screen and (max-width: 600px) {
     .toggle div {

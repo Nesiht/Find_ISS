@@ -164,23 +164,14 @@ toggleSwitch.addEventListener('change', switchMap, false);
 // Show info about ISS on onclick.
 function showISSInfo(){
     let x = document.getElementById('show_info');
-    if (x.style.display === "none"){
-        x.style.display = "block";
-    }    else {
+    if (x.style.display === "block"){
         x.style.display = "none";
+    }    else {
+        x.style.display = "block";
     }
 };
 
-
-
-
 setInterval(getCoordinates, 10000); // Run the fetch api request and plot the lat and lon automaticly every x millisecond.
-
-
-
-
-
-
 
 
 
