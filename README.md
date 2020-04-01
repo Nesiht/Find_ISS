@@ -1,15 +1,20 @@
-# Find_ISS
-Application to show the position of ISS space station every 10 seconds or on demand. Also contains a small info-box about the ISS.
+# Find ISS space station
 
-# Contains the following
+Using [wheretheiss.at](https://wheretheiss.at/) API to get coordinates where the ISS space station are and then displaying it on Google Maps every 10 seconds or on demand.
+
+## The problem / Solution
+
+Understading how wheretheiss.at API works by reading up on the documents they provide. How to use Google Map services and all the functionallity Google Map provides.
+
+Creating a light and dark theme for the site.
+
+## Build with 
+
 * HTML5
-* CSS
-* JavaScript
-* Bootstrap
-* API Fetch from wherestheiss.at (https://wheretheiss.at/)
-* Google Maps
-* Dark / Light Themed
+* CSS3
+* JavaScript ES6
+* Google Maps API
 
-Any questions can be directed to me at thisen@gmail.com.
+## View it live
 
-Repository created 2019-06-12 and finished 2019-07-12.
+This repo will not be published online since Google Map services will charge me each time a request with my key are made.

@@ -172,35 +172,3 @@ function showISSInfo(){
 };
 
 setInterval(getCoordinates, 10000); // Run the fetch api request and plot the lat and lon automaticly every x millisecond.
-
-
-
-
-// Function to fetch and show the position of the ISS on map.
-// function getCoordinates(){
-//     fetch('https://api.wheretheiss.at/v1/satellites/25544')
-//     .then(function(response){
-//         return response.json();
-//     })
-//     .then(function(myData){
-//         // Store lat and lon respone in the variable.
-//         let myLatLong = {lat: myData.latitude, lng: myData.longitude};
-//         console.log(myLatLong);
-//         // Update map with new lat and lon when button is pushed.
-//         map = new google.maps.Map(document.getElementById('map'), {
-//           center: myLatLong,
-//           zoom: 4,
-//           styles: googleMapStyles // Variable, kan man sätta en function här som kollar huruvida checkboxen är true eller false?
-//         });
-//
-//         // Using a marker to plot the lat and lon for the ISS.
-//         var marker = new google.maps.Marker({
-//           position: myLatLong,
-//           map: map,
-//           title: 'ISS IS HERE!'
-//         });
-//     })
-//     .catch(function(error){
-//         console.log('Something is wrong: \n', error);
-//     })
-// }
